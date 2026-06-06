@@ -1,1 +1,20 @@
 rootProject.name = 'architecture-patterns'
+
+// Architecture Patterns
+include 'architecture:hexagonal'
+include 'architecture:onion'
+include 'architecture:hexagonal-onion'
+include 'architecture:clean'
+include 'architecture:layered'
+
+// Domain Modeling Patterns
+include 'domain-modeling:rich-domain'
+include 'domain-modeling:anemic-domain'
+include 'domain-modeling:cqrs'
+include 'domain-modeling:event-sourcing'
+
+// Design Patterns - State Management
+include 'design-patterns:state-management:guard-methods'
+include 'design-patterns:state-management:transition-table'
+include 'design-patterns:state-management:state-pattern'
+include 'design-patterns:state-management:spring-state-machine'
