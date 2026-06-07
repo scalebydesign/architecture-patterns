@@ -6,6 +6,7 @@ include 'architecture:onion'
 include 'architecture:hexagonal-onion'
 include 'architecture:clean'
 include 'architecture:layered'
+include 'architecture:modular-monolith'
 
 // Domain Modeling Patterns
 include 'domain-modeling:rich-domain'
